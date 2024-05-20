@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primitive Scoreboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2>Scoreboard</h2>
+    </header>
+    <div class="main-container">
+        <div class="home-container">
+            <h2>HOME</h2>
+            <div class="screen">
+                <p id="score-home">0</p>
+            </div>
+            <button onclick="plusOneH()">+1</button>
+            <button onclick="plusTwoH()">+2</button>
+            <button onclick="plusThreeH()">+3</button>
+            <button onclick="resetScoreHome()">Reset</button>
+        </div>
+
+        <div class="guest-container">
+            <h2>GUEST</h2>
+            <div class="screen">
+                <p id="score-guest">0</p>
+            </div>
+            <button onclick="plusOneG()">+1</button>
+            <button onclick="plusTwoG()">+2</button>
+            <button onclick="plusThreeG()">+3</button>
+            <button onclick="resetScoreGuest()">Reset</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
