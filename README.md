@@ -1,0 +1,1 @@
+An updated version of my first project, a basketball scoreboard, that i made when i was studying for free. In this version i reused the original JavaScript file and remade the entirety of the HTML and CSS files, as my previous project was full of syntax errors and poorly formatted.
