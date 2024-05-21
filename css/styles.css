@@ -90,7 +90,10 @@ header h2 {
 
 footer p {
     font-size: 14px;
+    font-family: 'Sedan';
+    text-align: center;
     color: #222;
+    
 }
 
 /* Responsividade */
